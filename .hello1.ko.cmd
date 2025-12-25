@@ -1,0 +1,1 @@
+cmd_/home/sergio/repos/lab5_hello12/hello1.ko := ccache arm-linux-gnueabihf-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/sergio/repos/lab5_hello12/hello1.ko /home/sergio/repos/lab5_hello12/hello1.o /home/sergio/repos/lab5_hello12/hello1.mod.o ;  true
